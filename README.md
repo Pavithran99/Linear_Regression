@@ -24,3 +24,6 @@ Implement Simple Linear Regression Algorithm using numpy and see the output usin
 4. Below plot shows the step size information
 
 ![](https://github.com/Pavithran99/Linear_Regression/blob/master/images/ss.png)
+
+
+Video Link : [Click here](https://youtu.be/H3H2cdibZrk)
