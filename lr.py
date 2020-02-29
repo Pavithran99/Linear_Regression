@@ -17,15 +17,15 @@ t1=[]
 t0=[]
 se=[]
 plt.ion()
-
-for k in range(200):
+Epoch = 200
+for k in range(Epoch):
     y1 = [teta1*i + teta0 for i in x]
     loss = 0
     for i,j in zip(x,y):
         y_cap = teta1*i + teta0
         loss = loss + (y_cap - j)**2
     squared_error = (loss)/(2*len(x))
-    print('Loss: ',squared_error)
+    print('Epoch: {} Loss: {}'.format(k,squared_error))
     
 
     sum_derivative_teta0 = 0
